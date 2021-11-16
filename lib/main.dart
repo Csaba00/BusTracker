@@ -1,0 +1,28 @@
+import 'package:bus_tracker/register_screen.dart';
+import 'package:flutter/material.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'login_screen.dart';
+import 'googlemaps.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
+  runApp(const MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      initialRoute: '/',
+      routes: {
+        '/': (context) => Login(),
+        '/register': (context) => Register(),
+        '/login/Googlemaps': (context) => Googlemaps(),
+      },
+    );
+  }
+}

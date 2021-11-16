@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "531361177586",
+    "firebase_url": "https://bustracky-efd19-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "bustracky-efd19",
+    "storage_bucket": "bustracky-efd19.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:531361177586:android:61a0761959e25027fd956b",
+        "android_client_info": {
+          "package_name": "io.bustracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "531361177586-m9ilg6mlflaivhmp1q3q7faubqknlo9i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD07m48Nt7llYwN3dRkAfvnhQLswEi2-Xk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "531361177586-m9ilg6mlflaivhmp1q3q7faubqknlo9i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
